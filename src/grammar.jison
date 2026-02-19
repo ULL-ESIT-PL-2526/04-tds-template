@@ -28,7 +28,7 @@ expression
 
 term
     : NUMBER
-        { $$ = Number(yytext); }
+        { $$ = Number($NUMBER); }
     ;
 %%
 

@@ -9,7 +9,7 @@
   "scripts": {
     "build": "jison src/grammar.jison -o src/parser.js",
     "start": "npm run build && node src/index.js",
-    "test": "jest",
+    "test": "npm run build && jest",
     "coverage": "jest --coverage"
   },
   "engines": {
