@@ -46,9 +46,3 @@ Type ".help" for more information.
 > 7-4/2
 5
 ```
-
-1. What parse tree is being built for each of the above expressions?
-2. In what order are the operations being evaluated?
-3. Modify the Jison program so that mathematical operator precedences are respected.
-4. In the [__tests__](__tests__/parser.test.js) folder there is a set of tests that can be run with the `npm test` command to verify that the parser behaves correctly. Fix the ones that fail and add additional tests to verify that all precedences and associativities of mathematical operators are respected.
-5. Modify the grammar to support parentheses and add the corresponding tests. 
