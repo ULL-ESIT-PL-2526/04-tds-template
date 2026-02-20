@@ -29,20 +29,3 @@ Type ".help" for more information.
 > p.parse("2*3")
 6
 ```
-
-## Why is failing our calculator?
-
-```js
-> p.parse('4-2*3')
-6
-> 4-2*3
--2
-> p.parse('2**3**2')
-64
-> 2**3**2
-512
-> p.parse('7-4/2')
-1.5
-> 7-4/2
-5
-```
